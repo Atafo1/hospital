@@ -1,0 +1,192 @@
+.top{
+    display: flex;
+    padding-left: 900px;
+    font-family: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;";
+    font: bold;
+    font-size: 20px;
+}
+.top a{
+    text-decoration: none;
+    color: white;
+    font-family: "'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;";
+    padding-left: 50px;
+    font-weight: bolder;
+    text-underline-offset: 6px;
+    font-size: 22px;
+}
+.top a:hover{
+    transform: translateY(-5px); /* Subtle lift effect */
+    
+}
+.word{
+    padding-top: 150px;
+   color: rgb(48, 45, 45);
+   text-align: center;
+    font-family:'Montserrat', sans-serif;
+    font: bold;
+    font-size: 35px;
+}
+.toppage{
+     background-image: url(images/amb.jpg);
+    background-repeat: no-repeat;
+background-size:cover;
+   
+    height: 700px;
+}
+.butt4{
+    padding: 25px;
+    background-color: lightblue;
+    border: solid;
+    border-radius: 10px;
+    font-family:'Montserrat', sans-serif ;
+    font-size: 20px;
+    font-weight: bold;
+    border-color: lightblue;
+}
+.butt4 a{
+    text-decoration: black;
+    color: black;
+}
+
+
+.img{
+   
+ 
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.img:hover{
+    transform: translateY(-5px); /* Subtle lift effect */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Even stronger shadow on hover */
+}
+#container{
+    padding-left: 10px;
+    padding-right:10px ;
+    color: black;
+    font-family:'Roboto', sans-serif ;
+    height: 500px;
+    display: flex;
+    padding-top: 20px;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+
+    }
+    .row1{
+       width: 50%;
+       
+    }
+    .row1 img{
+        height: 470px;
+        width: 400px;
+    }
+     .row2{
+        width: 50%;
+        padding-top: 10px;
+        font-family:"'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;";
+        font-size: 30px;
+        
+    }
+    .row2 #parg{
+        font-size: 20px;
+    }
+   
+    .container2{
+        display: flex;
+        align-content: center;
+        padding: 30px;
+        padding-left: 100px;
+        padding-right: 10px;
+        font-family:'Montserrat', sans-serif ;
+        padding-left: 90px;
+        height: 300px;
+     }
+ .rom1{
+     width: 33.33%;
+ }
+ .rom1 img{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .rom1 img:hover{
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Even stronger shadow on hover */
+ }
+ .rom2{
+     padding-left: 50px;
+     width: 33.33%;
+ }
+ .rom2 img{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .rom2 img:hover{
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Even stronger shadow on hover */
+ }
+ .rom2 a{
+    
+     text-decoration: none;
+     color: black; 
+     /* padding-top: 20px; */
+ }
+ .rom3{
+     width: 33.33%;
+     padding-left: 50px;
+ }
+ .rom3 img{
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+ .rom3 img:hover{
+    transform: translateY(-5px); /* Subtle lift effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Even stronger shadow on hover */
+ }
+ .rom3 a{
+     text-decoration: none;
+     color: black;
+ }
+  footer{
+        height: 300px;
+        background-color: lightgrey;
+    }
+ .container34{
+       display: flex;
+       align-content: center;
+       padding: 30px;
+       font-family:'Montserrat', sans-serif ;
+       padding-left: 90px;
+    }
+.rome1{
+    width: 25%;
+}
+.rome2{
+    
+    width: 25%;
+}
+.rome2 a{
+   
+    text-decoration: none;
+    color: black; 
+   
+}
+.rome3{
+    width: 25%;
+}
+.rome3 a{
+    text-decoration: none;
+    color: black;
+}
+.rome4{
+    width: 25%;
+}
+.dep{
+    font-family:'Montserrat', sans-serif ;
+    text-align: center;
+    font-size: 50px;
+}

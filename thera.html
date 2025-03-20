@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.1.3-dist/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style3.css" type="text/css">
+    <title>Therapists</title>
+    <style>
+        body {
+          margin: 0;
+          padding: 0;
+          
+        }
+    
+        .container {
+          height: 200vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #f4f4f4;
+        }
+    
+        .row2 {
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+          height: 300px; /* Adjust height to fit the text */
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          opacity: 0; /* Initially hidden */
+        }
+    
+        .marquee {
+          position: absolute;
+        }
+    
+        .marq {
+          margin: 0;
+          line-height: 1.5; /* Adjust spacing between the lines */
+        }
+    
+        @keyframes slideIn {
+          from {
+            transform: translateX(-100%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+    
+        .animate {
+          animation: slideIn 2s linear forwards;
+          opacity: 1; /* Make visible when animation starts */
+        }
+      </style>
+</head>
+<body style="padding: 0; margin: 0;">
+    <div class="toppage">
+        <div class="top">
+          <a href="home.html"><u>Home</u></a>
+          <a href="aboutus.html"><u>About us</u></a>
+          <a href="Contactus.html"><u>Contact Us</u></a>
+        </div>
+        <div class="word">
+            <h1>UnitedGroup Therapist</h1><br>
+            <p>Home of the best Healthcare consultants</p>
+       
+    </div>
+    </div>
+
+    <div id="container">
+        <div class="row1">
+            <img src="images/thera4.jpg" class="img" alt="Doctor Image">
+        </div>
+        <div class="row2" id="animatedSection">
+            <div class="marquee">
+              <h2 class="marq">Head of the Department</h2>
+              <h3 class="marq">Dr. Iman Brar is the head of the medical doctor department</h3>
+              <p id="parg" class="marq">Dr. Iman Brar has over two decades of extensive experience in the medical practitioner field,<br> specializing in patient care, innovative treatments, and leadership in healthcare management.<br> His dedication to advancing medical practices and mentoring young professionals has earned him <br>recognition as a highly respected figure in the industry."</p>
+            </div>
+          </div>
+   
+    </div>
+    <div  class="sec2">
+        <a class="dep1">The Department</a>
+    <div class= "container2" >
+        <div class="rom1">
+            <img src="images/thera1.jpeg">
+           <h3>Dr Olivia Wallace</h3>
+        </div>
+        <div class="rom2">
+            <img src="images/thera2.jpeg">
+            <h3>Dr Emily Ameria</h3>
+        </div>
+        <div class="rom3">
+            <img src="images/thera3.jpeg">
+            <h3>Dr Selena Sanchez<h3>
+        </div>
+       
+    </div>
+      </div>
+      <footer>
+        <div class="container34">
+          <div class="rome1">
+             <h5> UnitedGroup Healthcare</h5>
+             <h5>1800 Orleans Street, Baltimore, MD 21287</h5>
+             <h5>2024 Unitedgroup</h5>
+          </div>
+          <div class="rome2">
+            <h2>Links</h2>
+            <a href="home.html"><h4>Home</h4></a>
+            <a href="aboutus.html"><h4>About us</h4></a>
+            <a href="Contactus.html"><h4>Contact Us</h4></a>
+          </div>
+          <div class="rome3">
+            <h2>Services</h2>
+            <a href="doctor.html"><h4>Doctors</h4></a>
+            <a href="surg.html"><h4>Surgeons</h4></a>
+            <a href="thera.html"><h4 >Therapists</h4></a>
+          </div>
+          <div class="rome4">
+            <h2>Media</h2>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-envelope"></i>
+          </div>
+      
+        </div>
+      </footer>
+    <script>
+        // Function to check if an element is in the viewport
+        function isInViewport(element) {
+          const rect = element.getBoundingClientRect();
+          return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+          );
+        }
+    
+        // Trigger animation when the section is in the viewport
+        const animatedSection = document.getElementById('animatedSection');
+        window.addEventListener('scroll', () => {
+          if (isInViewport(animatedSection)) {
+            animatedSection.classList.add('animate');
+          }
+        });
+      </script>
+    
+    
+</body>
+</html>
